@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>申請書</title>
     <style>
-        .body{ 
+        #article-bd{ 
             margin-top:20px;
             margin-bottom: 20px;
             margin-left:15%;
@@ -18,11 +18,11 @@
             border-radius: 10%;
             padding:25px;
         }
-        .head{
+        #head{
             text-align:center;
             background-color:lightgray;
         }
-        .bd{
+        #bd{
             background: url("bg-1.png");
             background-position: center;
             background-size:cover;
@@ -38,10 +38,10 @@
  
         
         @media(max-width:800px){
-            .body{
+            #article-bd{
                 flex-wrap:wrap;
             }
-            .text{
+            #article{
                 font-size:16px;
                 line-height:1.7;
                 letter-spacing:1px;
@@ -54,56 +54,63 @@
         }
 
     </style>
-    </head>
+</head>
 
-    <body class="bd">
-        <div class="head"><h1>WeHelp 申請書</h1></div>
-        <div class="head">
-   
-        </div>
+<body id="bd">
+        <div id="head"><h1>WeHelp 申請書</h1><
+        /div>
 
-        <div class="body">
+        <div id="article-bd">
             <h3>兩百字內的個人簡介</h3>
             <hr>
-            <a class="text">&nbsp &nbsp &nbsp &nbsp我叫<span>尹珮瓊</span>，中原大學電機系畢業．目前於航空業工作已八年，從事<span>航空簽派員</span>，主要工作內容為製作飛行計劃，
-            提供組員航班天氣、航路、油量等資訊．由於已經熟悉每天制式化的工作內容，深知部門內部許多工作能藉由網頁整合，使流程更順暢也減少許多傳統紙本方式造成的溝通不良或不便，以上是我想學網頁設計的動機，
-            其實我看過很多的課程，但因為沒有一套完整的進度所以時常怠惰，得知老師的課程模式，每週任務達成，儘管沒有手把手教學，但是我對於這種模式非常喜歡，希望能有機會加入．
+            <a id="article">&nbsp &nbsp &nbsp &nbsp我叫<span>尹珮瓊</span>，中原大學電機系畢業．目前於航空業工作已八年，從事<span>航空簽派員</span>，主要工作內容為製作飛行計劃，
+            提供組員航班天氣、航路、油量等資訊．由於已經熟悉每天制式化的工作內容，深知部門內部許多工作能藉由網頁整合，使流程更順暢也減少許多傳統紙本方式造成的溝通不便，以上是我想學網頁設計的動機，
+            其實我看過很多的課程，但因為沒有一套完整的進度時常困惑，得知老師的課程模式，每週任務達成，儘管沒有手把手教學，但是我對於這種模式非常喜歡，希望能有機會加入．
             </a>  
         </div>
-        <div class="body">
+
+
+        <div id="article-bd">
             <h3>為了成為軟體工程師，曾做過什麼努力？</h3>
             <hr>
-            <a class="text">&nbsp &nbsp &nbsp &nbsp一直以來都有看一些課程學習如：Treehouse、Youtube....等，會對軟體工程師有興趣是開始於寫EXCEL公式，發現寫出一個好用的EXCEL
+            <a id="article">&nbsp &nbsp &nbsp &nbsp一直都有看課程學習如：Treehouse、Youtube....等，會對軟體工程師有興趣是開始於寫EXCEL公式，發現寫出一個好用的EXCEL
             很有成就感，慢慢也有研究程式，現在用EXCEL記錄交接事項，但還是差強人意，未來希望能自己寫出一個交接事項的網頁，結合工作內容給部門同仁使用．
             </a>
         </div>
-        <div class="body">
+
+
+        <div id="article-bd">
             <h3>如果參與這個計畫，會怎麼安排學習時間？</h3>
             <hr>
-            <a class="text">
-                &nbsp &nbsp &nbsp &nbsp我工作是輪班性質，一日三班（早、中、夜）月休10、11天，因現在資歷夠深，工作內容也駕輕就熟，部門內需求班別很人性化，．打算加入課程後，每週一休假，每週五上中或夜班．
+            <a id="article">
+                &nbsp &nbsp &nbsp &nbsp我工作是輪班性質，一日三班，因現在資歷夠深，工作內容也駕輕就熟，部門內需求班別很人性化．加入課程後，每週一休假，每週五上中或夜班．
                 上班私人時間1-2小時，可以自由運用，預計週間學習時間70-80小時，我有在職準備美國航空相關職照經驗，我相信時間是可以安排好的．
             </a>
         </div>
-        <div class="body">
-            <h3 >是否有想要加入的軟體公司？為什麼想加入該公司？</h3>
+
+
+        <div id="article-bd">
+            <h3>是否有想要加入的軟體公司？為什麼想加入該公司？</h3>
             <hr>
-            <a class="text">&nbsp &nbsp &nbsp &nbsp目前想先以公司內部完成網頁，做一個完整的成品，未來想要加入跟航空飛行相關的公司，例如：LIDO,SABRE....等，
-                因為身在航空業，知道未來趨勢發展還有很大的空間，所以我打算學好後朝航空相關的網頁資料數據來做開發，像是我的背景圖片Skyvector也是我覺得很厲害的網頁，但總是希望能更與工作相關．
+            <a id="article">&nbsp &nbsp &nbsp &nbsp目前想先以公司內部完成網頁，做一個完整的成品，未來想要加入跟航空相關公司，例如：LIDO,SABRE....等，
+                因為身在航空業，知道未來趨勢發展還有很大的空間，所以我打算朝航空相關的網頁資料數據來做開發，像是我的背景圖片Skyvector網站．
             </a>
         </div>
-        <div class="body">
-            <h3 id="body">請描述一件讓你產生明顯負面情緒的事情，你如何處理該情緒？</h3>
+
+
+        <div id="article-bd">
+            <h3>請描述一件讓你產生明顯負面情緒的事情，你如何處理該情緒？</h3>
             <hr>
-            <a class="text">&nbsp &nbsp &nbsp &nbsp我很少有負面情緒，除非有別人在背後說我沒做過的事或是取笑我花時間努力地成果，這種時候比較會不開心．但因為我很愛打電動、看電影，沈浸遊戲、電影裡，會讓我腦袋放空，所以我在心情不好時，會沈浸在其中八小時以上，然後睡一覺，什麼都忘光了，比較不會記太久</a>
+            <a id="article">&nbsp &nbsp &nbsp &nbsp我很少有負面情緒，除非有別人在背後說我沒做過的事或是取笑我花時間努力地成果，這種時候比較會不開心．
+                但因為我很愛打電動、看電影，沈浸遊戲、電影裡，會讓我腦袋放空，所以我在心情不好時，會沈浸在其中八小時以上，然後睡一覺，什麼都忘光了，比較不會記太久</a>
         </div>
-        <div class="body">
+
+
+        <div id="article-bd">
             <h3>關於這份申請網頁，請分享一個你開發時使用的技術心得。</h3>
             <hr>
-            <a class="text">
-
+            <a id="article">
             &nbsp &nbsp &nbsp &nbspGithub page上傳嘗試很久，好不容易成功了，但因為我想自動跟VS code同步，找了一些youtube 影片，終於可以同步更新，不用手動傳送，覺得很開心．
-
             </a>
         </div>
 
